@@ -1,0 +1,74 @@
+Page {
+  background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2522353657,669548892&fm=11&gp=0.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-left: 260rpx;
+  margin-top: 150rpx;
+}
+
+.input {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input input {
+  height: 92rpx;
+  font-weight: bold;
+  font-size: 40rpx;
+  border-bottom: 1rpx solid #605864;
+}
+.placeholder{
+   color: #000;
+}
+.form_button {
+  margin-top: 35rpx;
+  width: 90%;
+  font-size: 28prx;
+  background-color: #dd6262;
+}
+
+.register_forgetpwd {
+  height: 92rpx;
+  color: #b7adb5;
+  font-size: 28rpx;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.register_forgetpwd text {
+  line-height: 92rpx;
+  height: 92rpx;
+}
+
+.forgetpwd {
+  float: right;
+}
+
+.bottom_top {
+  background-color: green;
+  height: 46rpx;
+  text-align: center;
+}
+
+.bottom_top text {
+  color: white;
+  display: inline-block;
+  height: 46rpx;
+  font-size: 24rpx;
+  line-height: 46rpx;
+  width: 20%;
+  text-align: center;
+}
+
+.bottom_top image {
+  display: inline-block;
+  width: 35%;
+  height: 46rpx;
+  vertical-align: middle;
+}

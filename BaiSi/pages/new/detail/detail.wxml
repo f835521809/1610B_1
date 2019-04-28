@@ -1,0 +1,7 @@
+<!--pages/new/detail/detail.wxml-->
+<view>
+   <view wx:for="{{list1}}" wx:key="{{index}}">
+      <image src="{{item.img}}"></image> 
+      <text>{{item.nm}}</text>
+   </view>
+</view>

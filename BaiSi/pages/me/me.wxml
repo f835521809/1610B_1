@@ -1,0 +1,17 @@
+<!--pages/me/me.wxml-->
+<view>
+  <view class='banner'>
+    <image src='/images/banner.jpg'></image>
+  </view>
+  <view class='login' bindtap='login'>
+    <image src="/images/index.jpg"></image>
+    <text>Molly</text>
+  </view>
+  <view class='box'>
+   <view wx:for="{{mylist}}" wx:key="{{index}}" class='list'>
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+  </view>
+ 
+</view>

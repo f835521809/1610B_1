@@ -1,0 +1,14 @@
+<!--logs.wxml-->
+<view>
+  <view wx:for="{{data}}" wx:key="{{index}}" class='box' bindtap='btn' data-id="{{item.id}}">
+    <view class='banner'>
+      <image src="{{item.img}}" mode="widthFix" />
+    </view>
+    <view class='content'>
+      <text class='t1'>{{item.nm}}</text>
+      <text class='t2'>观众评{{item.sc}}</text>
+      <text class='t3'>主演:{{item.star}}</text>
+      <text class='t4'>{{item.showInfo}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view class="content">
+  <image src="/images/index.jpg"></image>
+  <view style="height:150rpx;"></view>
+  <form bindsubmit="formSubmit">
+    <view class="input">
+      <input name="username" placeholder="输入用户名" placeholder-class='placeholder' value='{{userName}}'></input>
+      <input name="password" placeholder="请输入密码" placeholder-class='placeholder' value='{{userPassword}}'></input>
+    </view>
+    <button class="form_button" formType="submit">登录</button>
+  </form>
+
+  <view class="register_forgetpwd">
+    <text class="register" bindtap="register">立即注册</text>
+    <text class="forgetpwd" bindtap="forgetpwd">忘记密码</text>
+  </view>
+</view>
